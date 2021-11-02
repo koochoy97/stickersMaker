@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Gobold Bold Italic Italic';
+    src: url(./Gobold\ Bold\ Italic.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: thistle;
+}
+.stickerContainer{
+    border: 1px solid green;
+}
+svg {
+    padding-left: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    width: auto;
+    min-height: 150px;
+    fill: white;
+    font-family: Gobold Bold Italic Italic;
+    border: 1px solid red;
+    text-transform: uppercase;
+  }
+
+.svgStroke {
+    fill: white;
+    stroke: black;
+    stroke-width: 7.5px;
+    stroke-linejoin: round;
+  }
+  .apellido{
+      font-size: 70px;
+  }
+  button{
+      cursor: pointer;
+      background-color: royalblue;
+      border: none;
+      height: 25px;
+      width: 80px;
+  }
+  button:hover{
+      background-color: orange;
+      border: none;
+  }
+  
